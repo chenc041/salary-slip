@@ -7,10 +7,13 @@ const __dirname = path.dirname(__filename);
 const repositoryUrl = 'https://github.com/chenc041/nestjs-starter';
 
 const exist = existsSync(join(__dirname, '../packages/api'));
+
+const packages = join(__dirname, '../packages');
+
 if (exist) {
   console.log('api folder already exists');
 } else {
-  exec(`cd ./packages && git clone ${repositoryUrl} api && cd api && rm -rf .git && rm -rf .github`, (err, stdout, stderr) => {
+  exec(`cd ${packages} && git clone ${repositoryUrl} api && cd api && rm -rf .git && rm -rf .github`, (err, stdout, stderr) => {
     if (err) {
       console.error(`git clone ${repositoryUrl} error ==>`, err)
     }

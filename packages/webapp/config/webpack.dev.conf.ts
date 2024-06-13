@@ -12,6 +12,12 @@ export default merge(config, {
       logging: 'info',
       progress: true,
     },
+    proxy: [
+      {
+        context: ['/api'],
+        target: 'http://localhost:3001',
+      },
+    ],
     historyApiFallback: true,
   },
   stats: {

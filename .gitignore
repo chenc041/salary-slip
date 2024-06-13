@@ -43,5 +43,3 @@ Thumbs.db
 
 /packages/api/client
 lerna-debug.log
-
-packages/api

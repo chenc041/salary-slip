@@ -4,7 +4,7 @@ import type { MenuProps } from 'antd';
 import { GlobalContext, GlobalContextType } from '~/context';
 import { routes } from '~/routes';
 import { Link } from 'react-router-dom';
-import styles from '~/components/sideMenu/index.scss';
+import styles from '~/components/sideMenu/index.module.scss';
 import { globalConfig } from '~/config';
 
 type MenuItem = Required<MenuProps>['items'][number];

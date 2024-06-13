@@ -22,13 +22,6 @@ export const routes: RoutesType[] = [
     icon: HomeFilled,
     title: 'Dashboard',
     component: DashboardPage,
-    children: [
-      {
-        path: 'demo',
-        title: 'Dashboard - child',
-        component: DashboardPage,
-      },
-    ],
   },
   {
     path: '403',

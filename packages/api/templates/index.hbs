@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ 姓名 }} - 工资条</title>
+  <style>
+    /* 简单的样式 */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+<h1>{{ 姓名 }} - 工资条</h1>
+<table>
+  <tr>
+    <th>项目</th>
+    <th>明细</th>
+  </tr>
+  <tr>
+    <td>姓名</td>
+    <td>{{姓名}}</td>
+  </tr>
+  <tr>
+    <td>工号</td>
+    <td>{{工号}}</td>
+  </tr>
+  <tr>
+    <td>部门</td>
+    <td>{{部门}}</td>
+  </tr>
+  <tr>
+    <td>邮箱</td>
+    <td>{{邮箱}}</td>
+  </tr>
+  <tr>
+    <td>月薪</td>
+    <td>{{月薪}}</td>
+  </tr>
+  <tr>
+    <td>个人所得税</td>
+    <td>{{个人所得税}}</td>
+  </tr>
+  <tr>
+    <td>社保扣款</td>
+    <td>{{社保扣款}}</td>
+  </tr>
+  <tr>
+    <td>公积金扣款</td>
+    <td>{{公积金扣款}}</td>
+  </tr>
+  <tr>
+    <td>工资总额（税前）</td>
+    <td>{{工资总额（税前）}}</td>
+  </tr>
+  <tr>
+    <td>实发工资（税后）</td>
+    <td>{{实发工资（税后）}}</td>
+  </tr>
+  <tr>
+    <td>工资条日期</td>
+    <td>{{工资条日期}}</td>
+  </tr>
+  <tr>
+    <td>工资发放日期</td>
+    <td>{{工资发放日期}}</td>
+  </tr>
+</table>
+<p>注意：以上数据仅供示例，并非真实数据。</p>
+<p>如有疑问，请联系人力资源部。</p>
+</body>
+</html>

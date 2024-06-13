@@ -2,7 +2,7 @@ import React from 'react';
 import { Dropdown, Space } from 'antd';
 import type { MenuProps } from 'antd';
 import { DownOutlined } from '@ant-design/icons';
-import styles from '~/components/header/index.scss';
+import styles from '~/components/header/index.module.scss';
 import { GlobalContext, GlobalContextType } from '~/context';
 import { globalConfig } from '~/config';
 

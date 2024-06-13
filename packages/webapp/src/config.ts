@@ -1,6 +1,5 @@
-import * as process from 'process';
 import type { MenuTheme } from 'antd';
-export const BASE_URL = process.env.NODE_ENV === 'development' ? 'http://localhost:3001' : '';
+export const BASE_URL = '';
 
 export const globalConfig: {
   footer: string;
@@ -10,6 +9,6 @@ export const globalConfig: {
 } = {
   collapsed: false,
   menuTheme: 'light',
-  footer: '西瓜大侠',
-  header: '瓜_',
+  footer: '中资科技',
+  header: '工资条信息通知',
 };
